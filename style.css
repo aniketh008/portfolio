@@ -136,12 +136,12 @@ main_row h1 {
   }
   
   .skills .content .col-right .bar .jquery:before{
-	width: 80%;
+	width: 65%;
 	background: #30dd6d;
   }
   
   .skills .content .col-right .bar .php:before{
-	width: 50%;
+	width: 80%;
 	background: #eb2b94
   }
     
