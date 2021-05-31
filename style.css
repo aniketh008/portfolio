@@ -37,6 +37,7 @@ body {
 	left: 500;
 	/* bottom: -10; */
   }
+
   .home video{
   z-index: 000;
   position: absolute;
@@ -47,6 +48,26 @@ body {
 height: 100%;
   object-fit: cover;
 }
+
+.main_row h1{
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: text 5s steps(7) infinite alternate;
+	border-right: 3px solid black;
+	font-size: 60px;
+}
+
+@keyframes text{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 7ch;
+	}
+	
+}
+  
 
   .navigation-link {
       flex: 1;
