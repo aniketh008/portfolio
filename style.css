@@ -443,6 +443,20 @@ contact-in-btn {
 	}
 
 }
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 47px;
+	background: #27ae60;
+	bottom: 10px;
+	right: 15px;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+}
 
 #preloader{
 	background: #000 url(img/loader.gif) no-repeat center;
