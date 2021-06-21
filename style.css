@@ -485,7 +485,7 @@ contact-in-btn {
 }
 
 #preloader{
-	background: white url(img/loaders.gif) no-repeat center;
+	background: white url(loaders.gif) no-repeat center;
 	background-size: 65%;
 	height: 100vh;
 	width: 100%;
