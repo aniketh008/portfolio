@@ -485,8 +485,8 @@ contact-in-btn {
 }
 
 #preloader{
-	background: #000 url(img/loader.gif) no-repeat center;
-	background-size: 25%;
+	background: rgb(255, 255, 255) url(img/loader.gif) no-repeat center;
+	background-size: 65%;
 	height: 100vh;
 	width: 100%;
 	position: fixed;
