@@ -492,6 +492,18 @@ contact-in-btn {
 	position: fixed;
 	z-index: 100;
 }
+  .button {
+	font-size: 1em;
+	padding: 10px;
+	color: #fff;
+	border: 2px solid #06D85F;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+  }
+
+
 
 
 
