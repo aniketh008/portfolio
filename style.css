@@ -243,22 +243,48 @@ img:hover {
       border-radius: 0.5rem;
   }
 
-btn {
-    background: #b9502f;
-    border-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-.btn:hover
-{
-    background-color: #06ee25;
-    cursor: pointer;
-}
+.button {
+	border-radius: 6px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+	width: 290px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 4px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+	
+	}
+  .button:hover{
+	background-color: #e90ac4;
+  }
 
  .contact-wrap {
 	width: 95%;
