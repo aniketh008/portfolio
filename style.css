@@ -547,7 +547,7 @@ contact-in-btn {
 }
 
 #preloader{
-	background: black url(./img/tenor.gif) no-repeat center;
+	background: #000 url(tenor.gif) no-repeat center;
 	background-size: 75%;
 	height: 100vh;
 	width: 100%;
