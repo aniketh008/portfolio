@@ -215,8 +215,16 @@ main_row h1 {
   }
     
   .card{
-      border-bottom: 8px solid #f5ba09;
-      box-sizing: border-box;
+
+	  box-shadow: rgba(35, 216, 18, 0.06) 0px 2px 4px, rgba(1, 216, 12, 0.05) 0px 0.5px 1px;
+	  transition: all .3s ease-in-out;
+	  border-bottom: 8px solid #f5ba09;
+  }
+
+  .card:hover {	
+	  box-shadow: rgba(14, 222, 236, 0.22) 0px 19px 43px, rgba(9, 196, 243, 0.18) 0px 4px 11px;
+	  margin-top: -10px;
+
   }
 
 
