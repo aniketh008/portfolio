@@ -583,6 +583,17 @@
    window.addEventListener("load",function(){
       loader.style.display = "none";
    })
+if (screen.width >= 1900) { 
+    window.location.replace('www.aniketh.ml/1900'); 
+} else if (screen.width >= 1600 && screen.width < 1900) { 
+    window.location.replace('www.aniketh.ml/1600'); 
+} else if (screen.width >= 1300 && screen.width < 1600) { 
+    window.location.replace('www.aniketh.ml/1300'); 
+} else if (screen.width >= 1024 && screen.width < 1200) { 
+    window.location.replace('www.aniketh.ml/1024'); 
+} else { 
+    alert("error"); 
+}
 
    </script>					  
 					  
