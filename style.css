@@ -212,6 +212,12 @@ main_row h1 {
 	width: 80%;
 	background: #eb2b94
   }
+
+ .skills .content .col-right .bar .php:before{
+	width: 85%;
+	background: #eb2b84
+  }
+
     
   .card{
 
